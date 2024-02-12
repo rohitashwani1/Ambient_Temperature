@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "132687871802",
+    "firebase_url": "https://first-2f743-default-rtdb.firebaseio.com",
+    "project_id": "first-2f743",
+    "storage_bucket": "first-2f743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132687871802:android:bebd617d7240318030da03",
+        "android_client_info": {
+          "package_name": "com.agrotech.Agronomist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihDSMMgW5QYoPQMbjuQu7RizqbvHKxL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132687871802:android:f707108f64a7a4ba30da03",
+        "android_client_info": {
+          "package_name": "com.example.dance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihDSMMgW5QYoPQMbjuQu7RizqbvHKxL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132687871802:android:a05d82f1046ee23630da03",
+        "android_client_info": {
+          "package_name": "com.example.temperature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihDSMMgW5QYoPQMbjuQu7RizqbvHKxL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132687871802-i63582cu7gpfmlmbdpptkf3gljfq9cc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

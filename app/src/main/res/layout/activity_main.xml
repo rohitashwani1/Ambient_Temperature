@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72C3E8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Weather Information"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonCurrentTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#EAE262"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Current Local Temperature"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/buttonCurrentTemp"
+        android:layout_alignBaseline="@id/buttonCurrentTemp"
+        android:layout_marginStart="10dp"
+        android:text="28°C"
+        android:textSize="15sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonBatteryTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCurrentTemp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#EAE262"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Current Battery Temperature"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/buttonBatteryTemp"
+        android:layout_alignBaseline="@id/buttonBatteryTemp"
+        android:layout_marginStart="10dp"
+        android:text="30°C"
+        android:textSize="15sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBatteryTemp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:backgroundTint="#EAE262"
+        android:text="Select Date"
+        android:textColor="@android:color/black" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/button5"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/material_dynamic_secondary100"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chart1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="No Data available for this day"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+</RelativeLayout>
